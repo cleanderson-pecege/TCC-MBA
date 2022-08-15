@@ -6,7 +6,7 @@
 
 library(imager)
 
-image <- load.image("A2-B-20-48H.jpg")
+image <- load.image("Figuras/A2-B-20-48H.jpg")
 
 R<-R(image); G<-G(image); B<-B(image)
 ExGreen<-G-R-B
